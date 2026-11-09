@@ -9,4 +9,10 @@
            name="pa-sanji/android_hardware_dolby"
            remote="github"
            revision="calcite" />
+  <remove-project name="android_vendor_google_pixel" />
+  <project path="vendor/google/pixel"
+           name="pa-sanji/android_vendor_google_pixel"
+           remote="github"
+           revision="calcite"
+           clone-depth="1" />
 </manifest>

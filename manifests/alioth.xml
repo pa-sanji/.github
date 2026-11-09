@@ -8,11 +8,12 @@
 
   <project path="device/xiaomi/camera" name="pa-sanji/device_xiaomi_camera" remote="github" revision="calcite" />
   <project path="vendor/xiaomi/camera" name="pa-sanji/vendor_xiaomi_camera" remote="github" revision="calcite" />
-  <project path="hardware/qcom/display" name="aospa-pipa/android_hardware_qcom_display" remote="github" revision="calcite-865" />
+  <project path="hardware/qcom/gps" name="pa-sanji/android_hardware_qcom_gps" remote="github" revision="calcite" />
+  <project path="hardware/qcom/display" name="pa-sanji/android_hardware_qcom_display" remote="github" revision="calcite" />
   <project path="hardware/qcom/media" name="pa-sanji/android_hardware_qcom_media" remote="github" revision="calcite" />
   <project path="vendor/qcom/opensource/usb" name="pa-sanji/android_vendor_qcom-opensource_usb" remote="github" revision="calcite" />
   <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="pa-sanji/android_hardware_qcom_audio" remote="github" revision="calcite" />
-  <project path="vendor/qcom/opensource/thermal-hal" name="AOSPA/android_hardware_qcom_thermal" remote="aospa" revision="calcite-legacy" />
+  <project path="vendor/qcom/opensource/thermal-hal" name="pa-sanji/android_hardware_qcom_thermal" remote="github" revision="calcite" />
 
   <project path="build/make" name="pa-sanji/build_make" remote="github" revision="calcite">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -30,7 +31,7 @@
   <project path="device/qcom/common" name="pa-sanji/android_device_qcom_common" remote="github" revision="calcite">
     <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk" />
   </project>
-  <project path="hardware/samsung-ext/interfaces" name="Roynas-Android-Playground/hardware_samsung-extra_interfaces" remote="github" revision="lineage-24.0" />
+  <project path="hardware/samsung-ext/interfaces" name="pa-sanji/hardware_samsung-extra_interfaces" remote="github" revision="calcite" />
   <project path="device/qcom/sepolicy_vndr" name="pa-sanji/android_device_qcom_sepolicy_vndr" remote="github" revision="calcite" />
   <project path="system/libhwbinder" name="pa-sanji/android_system_libhwbinder" remote="github" revision="calcite" />
   <project path="frameworks/av" name="pa-sanji/frameworks_av" remote="github" revision="calcite" />
@@ -42,8 +43,8 @@
   <project path="hardware/xiaomi" name="pa-sanji/android_hardware_xiaomi" remote="github" revision="calcite" />
   <project path="kernel/msm-4.19" name="pa-sanji/xiaomi_sm8250_kernel_e404" remote="github" revision="calcite" clone-depth="1" />
   <project path="vendor/xiaomi" name="pa-sanji/proprietary_vendor_xiaomi" remote="github" revision="calcite" clone-depth="1" />
-  <project path="vendor/nxp/opensource/halimpl" name="AOSPA/android_vendor_nxp_opensource_halimpl" remote="github" revision="vauxite-SN100X-legacy" />
-  <project path="vendor/nxp/opensource/hidlimpl" name="AOSPA/android_vendor_nxp_opensource_hidlimpl" remote="github" revision="vauxite-SN100X-legacy" />
+  <project path="vendor/nxp/opensource/halimpl" name="pa-sanji/android_vendor_nxp_opensource_halimpl" remote="github" revision="calcite" />
+  <project path="vendor/nxp/opensource/hidlimpl" name="pa-sanji/android_vendor_nxp_opensource_hidlimpl" remote="github" revision="calcite" />
   <project path="build/release" name="pa-sanji/android_build_release" remote="github" revision="calcite" />
   <project path="device/qcom/sepolicy" name="pa-sanji/device_qcom_sepolicy" remote="github" revision="calcite" />
   <project path="hardware/interfaces" name="pa-sanji/hardware_interfaces" remote="github" revision="calcite" />

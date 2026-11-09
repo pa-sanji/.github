@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- GameBar performance overlay (patched for the AOSPA resource set) -->
+  <project path="packages/apps/GameBar"
+           name="pa-sanji/packages_apps_GameBar"
+           remote="github"
+           revision="calcite" />
+  <project path="hardware/dolby"
+           name="pa-sanji/android_hardware_dolby"
+           remote="github"
+           revision="calcite" />
+</manifest>

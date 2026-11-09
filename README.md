@@ -59,17 +59,37 @@ The remaining AOSP/AOSPA projects are provided by
 listed above is now forked under `pa-sanji` and tracked on `calcite`.
 
 
+## Clone alioth in a new folder
+
+```bash
+mkdir -p ~/pengu-alioth
+cd ~/pengu-alioth
+
+repo init -u https://github.com/Project-PenguinOS/manifest -b celerity --git-lfs
+
+mkdir -p .repo/local_manifests
+curl -fsSL \
+  https://raw.githubusercontent.com/pa-sanji/.github/calcite/manifests/alioth-local.xml \
+  -o .repo/local_manifests/alioth-local.xml
+
+repo sync -c --no-tags -j"$(nproc --all)"
+```
+
+`alioth-local.xml` is self-contained: it removes the Project-PenguinOS/AOSPA
+alioth projects and adds every pa-sanji `calcite` fork, including GameBar,
+Dolby and the pixel vendor. The base AOSP/AOSPA projects still come from
+`Project-PenguinOS/manifest`.
+
+If you prefer to inspect the pieces first:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/pa-sanji/.github/calcite/manifests/alioth.xml
+curl -fsSL https://raw.githubusercontent.com/pa-sanji/.github/calcite/manifests/gamebar.xml
+```
+
 ## Build
 
 ```bash
-# Base tree
-repo init -u https://github.com/Project-PenguinOS/manifest -b celerity
-repo sync -c -j"$(nproc --all)"
-
-# Apply the alioth product manifest (from vendor/aospa/products/alioth/beans.xml)
-# and the GameBar/Dolby overlay in .repo/local_manifests/gamebar.xml.
-repo sync -c -j"$(nproc --all)"
-
 source build/envsetup.sh
 lunch aospa_alioth-user
 ./rom-build.sh alioth -i -t user

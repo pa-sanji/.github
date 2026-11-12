@@ -44,8 +44,8 @@
     },
     {
       "icon": "✦",
-      "title": "Performance stack",
-      "summary": "Qualcomm's stock performance stack is back for app and game boosts."
+      "title": "Stock HIDL 2.2 perf blobs",
+      "summary": "Restored the alioth perf service, HIDL 2.2 libraries, game optimization feature and 0x104A game hints."
     },
     {
       "icon": "✦",

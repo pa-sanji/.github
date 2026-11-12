@@ -8,7 +8,7 @@ Build Date : 12/11/2026
 - Restored the stock audio HAL and volume listener, fixing audio calibration and volume handling.
 - Restored 24-bit audio and Bluetooth A2DP offload.
 - Restored the stock thermal stack for correct thermal and charging behaviour.
-- Restored Qualcomm's stock performance stack so app and game boosts work again.
+- Restored the stock HIDL 2.2 perf blobs, perf service and game optimization feature for app and game boosts.
 - Dolby effects now stay active in games that play audio through the media stream.
 - Vanilla builds now reserve space so a GApps package can be flashed later.
 - ColorOS-style Quick Settings now unfolds as a cascade and follows your finger.

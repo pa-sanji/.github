@@ -4,6 +4,11 @@
   "highlights": [
     {
       "icon": "✦",
+      "title": "Qualcomm QSSI LA.QSSI.17.0.r1-12400",
+      "summary": "Merged the latest Qualcomm QSSI baseline with audio policy, media and Codec2 fixes."
+    },
+    {
+      "icon": "✦",
       "title": "Screen mirroring and casting",
       "summary": "WFD now works, and the phone stays responsive while casting."
     },

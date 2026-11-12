@@ -1,5 +1,6 @@
 PenguinOS Celerity Unofficial
 Build Date : 12/11/2026
+- Merged the Qualcomm QSSI LA.QSSI.17.0.r1-12400-qssi.0 baseline.
 - Screen mirroring and casting now work, and the phone stays responsive while casting.
 - Google Camera photo mode is fixed; the viewfinder and shutter work again.
 - Wallpaper & style grid previews now show the correct layout for every option.

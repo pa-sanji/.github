@@ -1,0 +1,22 @@
+PenguinOS Celerity Unofficial
+Build Date : 12/11/2026
+- Screen mirroring and casting now work, and the phone stays responsive while casting.
+- Google Camera photo mode is fixed; the viewfinder and shutter work again.
+- Wallpaper & style grid previews now show the correct layout for every option.
+- Changing the home-screen grid (including 5x5) now applies immediately.
+- Fixed NFC on the Mi 11X non-NFC model, where it started on unsupported hardware and looped in the background.
+- Restored the stock audio HAL and volume listener, fixing audio calibration and volume handling.
+- Restored 24-bit audio and Bluetooth A2DP offload.
+- Restored the stock thermal stack for correct thermal and charging behaviour.
+- Restored Qualcomm's stock performance stack so app and game boosts work again.
+- Dolby effects now stay active in games that play audio through the media stream.
+- Vanilla builds now reserve space so a GApps package can be flashed later.
+- ColorOS-style Quick Settings now unfolds as a cascade and follows your finger.
+- Lock-screen notifications now expand in place.
+- Added the Tall Stack lock-screen clock style.
+- Lock-screen charging info now shows the actual current, voltage and wattage.
+- Added a toggle to hide the data-disabled indicator.
+- Double-tap to wake now responds immediately without waking the proximity sensor first.
+- Dialer glass bars are tinted grey.
+- Recents memory info now stays above the navigation bar.
+- Added classic audio-sharing codec and per-device volume controls.

@@ -12,6 +12,7 @@ forked here; they keep their current revisions.
 - Base manifest: `Project-PenguinOS/manifest` (branch `celerity`)
 - Product manifest: `vendor/aospa/products/alioth/beans.xml` (`calcite`)
 - Local overlay: `.repo/local_manifests/gamebar.xml` (GameBar + Dolby, `calcite`)
+- Changelog: [changelog.md](changelog.md)
 - Agent findings: [pa-sanji/Agents.md](https://github.com/pa-sanji/Agents.md)
 
 ## Adapted pa-sanji forks (`calcite`)

@@ -1,0 +1,81 @@
+{
+  "title": "PenguinOS Celerity Unofficial",
+  "hello_subtitle": "Changes since the previous public build. Take a look before you dive in.",
+  "highlights": [
+    {
+      "icon": "✦",
+      "title": "Screen mirroring and casting",
+      "summary": "WFD now works, and the phone stays responsive while casting."
+    },
+    {
+      "icon": "✦",
+      "title": "Google Camera photo mode",
+      "summary": "RAW10 buffers allocate correctly again, so the viewfinder and shutter work."
+    },
+    {
+      "icon": "✦",
+      "title": "Grid previews and applying",
+      "summary": "Wallpaper & style previews are correct, and 5x5/5x6 now applies immediately."
+    },
+    {
+      "icon": "✦",
+      "title": "Dock matches the grid",
+      "summary": "The bottom dock now uses the grid's hotseat count instead of staying at 4 columns."
+    },
+    {
+      "icon": "✦",
+      "title": "NFC on the Mi 11X",
+      "summary": "The non-NFC model no longer starts NFC on unsupported hardware and ANR-loops."
+    },
+    {
+      "icon": "✦",
+      "title": "Audio stack",
+      "summary": "Stock audio HAL and volume listener restored, fixing the gain-calibration loop."
+    },
+    {
+      "icon": "✦",
+      "title": "24-bit audio and A2DP",
+      "summary": "24-bit audio and Bluetooth A2DP offload are restored."
+    },
+    {
+      "icon": "✦",
+      "title": "Thermal stack",
+      "summary": "Stock QTI thermal map restored for correct thermal and charging behaviour."
+    },
+    {
+      "icon": "✦",
+      "title": "Performance stack",
+      "summary": "Qualcomm's stock performance stack is back for app and game boosts."
+    },
+    {
+      "icon": "✦",
+      "title": "Dolby in games",
+      "summary": "Dolby effects stay active in games that play audio through the media stream."
+    },
+    {
+      "icon": "✦",
+      "title": "Vanilla GApps space",
+      "summary": "Vanilla builds reserve space so a GApps package can be flashed later."
+    },
+    {
+      "icon": "✦",
+      "title": "Quick Settings and lock screen",
+      "summary": "COS cascade, in-place notifications, Tall Stack clock, battery info and a data-disabled toggle."
+    },
+    {
+      "icon": "✦",
+      "title": "Double-tap to wake",
+      "summary": "Responds immediately without starting the proximity sensor first."
+    },
+    {
+      "icon": "✦",
+      "title": "Dialer and Recents",
+      "summary": "Dialer glass bars are tinted grey, and Recents memory info stays above the navigation bar."
+    },
+    {
+      "icon": "✦",
+      "title": "Audio sharing",
+      "summary": "Classic audio-sharing codec and per-device volume controls added."
+    }
+  ]
+}
